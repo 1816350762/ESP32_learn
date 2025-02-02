@@ -1,0 +1,3 @@
+使用前需要下载TFT_eSPI库，在配置文件里面更改屏幕所用的驱动，屏幕的分辨率，屏幕的接线：MOSI(SDA),DC,CS,SCL,RST.之后再在platformio的配置文件里面添加lid_ldf_mode = deep+，以及将espressif32版本改成6.5.0，
+如下
+platform = espressif32@6.5.0
